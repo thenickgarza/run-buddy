@@ -42,9 +42,6 @@
     list-style: none;
   }
   
-  header nav ul li {
-    }
-  
   header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
@@ -82,7 +79,7 @@
   /* Hero Style Start */
   .hero {
     background-image: url('../images/hero-bg.jpg');
-    height: 600px;
+    height: auto;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -394,5 +391,4 @@
     .contact-form {
       order: 3;
   }   
-    
-  
+}
